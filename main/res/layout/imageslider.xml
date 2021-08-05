@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:clickable="true"
+    android:onClick="showDetail"
+    >
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/a_boy_and_his_ghost"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        />
+
+    <TextView
+        android:id="@+id/imageViewPagerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/image_1"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/textWhite"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_below="@+id/imageViewPagerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="imageViewPagerDescription"
+        android:textColor="@color/textGrey"
+        android:textSize="13sp"
+        android:id="@+id/imageViewPagerDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        />
+</RelativeLayout>

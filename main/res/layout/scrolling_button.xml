@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/scrollButtonImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/weak_hero"
+        />
+    <TextView
+        android:id="@+id/scrollButtonGenre"
+        android:layout_width="120dp"
+        android:layout_height="8dp"
+        android:text="scrollButtonGenre"
+        android:textColor="@color/menuGray"
+        android:textSize="8sp"
+        android:layout_below="@+id/scrollButtonImg"
+        />
+    <TextView
+        android:id="@+id/scrollButtonTitle"
+        android:layout_width="120dp"
+        android:layout_height="12dp"
+        android:layout_below="@+id/scrollButtonGenre"
+        android:textColor="@color/textWhite"
+        android:text="TitleManga"
+        android:textSize="12sp"
+        />
+</RelativeLayout>

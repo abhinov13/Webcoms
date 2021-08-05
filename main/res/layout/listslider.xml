@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/listSliderGenre"
+        android:textColor="@color/textWhite"
+        android:textSize="25sp"
+        android:text="GenreOfManga"
+        android:layout_marginStart="10dp"
+        />
+    <RelativeLayout
+        android:layout_below="@+id/listSliderGenre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/First"
+
+        >
+        <TextView
+            android:id="@+id/Num1Img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/number_bullet"
+            android:text="1"
+            android:textSize="14sp"
+            android:textColor="@color/textWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/FirstImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/weak_hero"
+            android:layout_toRightOf="@+id/Num1Img"
+            />
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/FirstName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/FirstImg"
+            android:layout_toRightOf="@+id/FirstImg"
+            android:text="Weak Hero"
+            android:textColor="@color/textWhite"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            />
+    </RelativeLayout>
+    <!--1 ends here -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Second"
+        android:layout_below="@+id/First"
+
+        >
+        <TextView
+            android:id="@+id/Num2Img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="2"
+            android:textSize="14sp"
+            android:textColor="@color/textWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/SecondImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/weak_hero"
+            android:layout_toRightOf="@+id/Num2Img"
+            />
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/SecondName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_toEndOf="@+id/SecondImg"
+            android:layout_toRightOf="@+id/SecondImg"
+            android:text="Weak Hero"
+            android:textColor="@color/textWhite"
+            />
+    </RelativeLayout>
+    <!--2 ends here -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Third"
+        android:layout_below="@+id/Second"
+        >
+        <TextView
+            android:id="@+id/Num3Img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="3"
+            android:textSize="14sp"
+            android:textColor="@color/textWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/ThirdImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/weak_hero"
+            android:layout_toRightOf="@+id/Num3Img"
+            />
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/ThirdName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/ThirdImg"
+            android:layout_toRightOf="@+id/ThirdImg"
+            android:text="Weak Hero"
+            android:textColor="@color/textWhite"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            />
+    </RelativeLayout>
+    <!--3 ends here -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Fourth"
+        android:layout_below="@+id/Third"
+        >
+        <TextView
+            android:id="@+id/Num4Img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="4"
+            android:textSize="14sp"
+            android:textColor="@color/textWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/FourthImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/weak_hero"
+            android:layout_toRightOf="@+id/Num4Img"
+            />
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/FourthName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/FourthImg"
+            android:layout_toRightOf="@+id/FourthImg"
+            android:text="Weak Hero"
+            android:textColor="@color/textWhite"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            />
+    </RelativeLayout>
+    <!--4 ends here -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Fifth"
+        android:layout_below="@+id/Fourth"
+        >
+        <TextView
+            android:id="@+id/Num5Img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="5"
+            android:textSize="14sp"
+            android:textColor="@color/textWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/FifthImg"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/weak_hero"
+            android:layout_toRightOf="@+id/Num5Img"
+            />
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/FifthName"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/FifthImg"
+            android:layout_toRightOf="@+id/FifthImg"
+            android:text="Weak Hero"
+            android:textColor="@color/textWhite"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            />
+    </RelativeLayout>
+    <!--5 ends here -->
+
+    <!--all ends here -->
+</RelativeLayout>

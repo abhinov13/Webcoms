@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Webtoons Finder</string>
+
+    <string-array name="Themes">
+        <item>Action</item>
+        <item>Thriller</item>
+        <item>Slice of Life</item>
+        <item>Fantasy</item>
+        <item>Sci-Fi</item>
+    </string-array>
+</resources>
